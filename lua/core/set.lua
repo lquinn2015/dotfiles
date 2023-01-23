@@ -1,4 +1,10 @@
 
+
+vim.o.background = "dark"
+vim.cmd[[colorscheme gruvbox]]
+
+
+
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -14,5 +20,12 @@ vim.opt.incsearch = true
 vim.opt.smartindent = true
 vim.opt.wrap = false
 
-vim.g.mapleader = "z"
+vim.g.mapleader = ";"
+vim.g.rustfmt_autosave = 1
+
+local keyset = vim.keymap.set
+keyset("n", "<leader>t", ":NvimTreeToggle<CR>")
+
+
+
 
