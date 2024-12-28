@@ -16,6 +16,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+vim.opt.textwidth = 80
 
 vim.opt.smartindent = true
 vim.opt.wrap = false
