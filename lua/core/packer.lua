@@ -15,8 +15,7 @@ return require('packer').startup(function(use)
             'nvim-tree/nvim-web-devicons',
         },
     }
-
+    use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
     use {'rust-lang/rust.vim'}
 
 end)
-
